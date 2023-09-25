@@ -1,0 +1,408 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 92%;
+  }
+  .topHeader_right {
+    gap: 1.4rem;
+  }
+  .topHeader_right-1 {
+    gap: 0.3rem;
+  }
+  .topHeader_right-1 span {
+    font-size: 0.8rem;
+  }
+  .topHeader_right-1 i {
+    font-size: 0.8rem;
+  }
+  .topHeader_right-2 {
+    gap: 0.1rem;
+  }
+  .topHeader_right-2 span {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  .bi-person-fill {
+    font-size: 1rem;
+  }
+
+  .topHeader_right-3 li a i {
+    font-size: 0.7rem;
+  }
+  .bottomHeader_menu {
+    gap: 0.5rem;
+  }
+
+  .cards_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .sectionThree__content h1 {
+    font-size: 1.8125rem;
+  }
+  .sectionThree__content p {
+    font-size: 0.75rem;
+  }
+  .sectionThree__mill {
+    padding: 1.5rem;
+  }
+  .sectionThree__mill li a {
+    font-size: 0.75rem;
+    padding: 0.5rem 1.2rem;
+  }
+  .cards_container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+}
+@media (max-width: 840px) {
+}
+/* for tablet */
+@media (max-width: 768px) {
+  .container {
+    max-width: 82%;
+  }
+  nav {
+    background: var(--black-100);
+    color: var(--white-100);
+    padding-bottom: 0.5rem;
+  }
+  .bottomHeader_menu {
+    display: none;
+  }
+  .bottomHeader_btn {
+    display: none;
+  }
+  .menu {
+    display: block;
+    font-size: 1.4rem;
+    margin-left: -5rem;
+  }
+  .toggle-btn {
+    display: block;
+  }
+  .header__content {
+    width: 70vw;
+    margin: 0 auto;
+  }
+  .header__content .logo {
+    width: 3.125rem;
+  }
+  .header__content h1 {
+    font-size: 2rem;
+  }
+  .header__content p {
+    font-size: 12px;
+  }
+  .header__content button {
+    padding: 0.875rem 1.5rem;
+    font-size: 14px;
+  }
+  .logo {
+    margin-left: 4rem;
+  }
+  .sectionOne p {
+    font-size: 0.875rem;
+  }
+  .sectionOne form input {
+    padding: 0.875rem;
+    border: 1px solid #dedede;
+  }
+  .sectionOne form button {
+    padding: 0.8125rem;
+  }
+  .book_btn {
+    display: block;
+  }
+  .header__content {
+    justify-content: center;
+  }
+  .cards_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .sectionThree__mill {
+    padding: 1.3rem;
+    width: 80%;
+  }
+  .sectionThree__content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .sectionThree__mill li a {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 0.8125rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .divide hr {
+    width: 2rem;
+    gap: 0.5rem;
+  }
+  .circle {
+    width: 5px;
+    height: 5px;
+  }
+  .center {
+    font-size: 0.75rem;
+  }
+  .menu_content {
+    width: 65%;
+  }
+  .menu_content-1 {
+    font-size: 0.9375rem;
+    align-items: start;
+    gap: 0.5rem;
+    font-weight: 700;
+  }
+  .price {
+    font-size: 0.9375rem;
+    font-weight: bold;
+  }
+  [class^="sectionThree__menu__"] img {
+    width: 40%;
+    align-self: start;
+  }
+  .menu_content-2 {
+    font-size: 0.6875rem;
+  }
+  .menu_content-3 {
+    font-size: 12px;
+  }
+  .sectionThree__btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 14px;
+    font-weight: 550;
+  }
+  .sectionFour {
+    padding: 3rem 0;
+  }
+  .sectionFour__content h1 {
+    text-align: center;
+  }
+  .sectionFour__content p {
+    font-size: 14px;
+  }
+  .sectionFour__form__input input {
+    font-size: 0.875rem;
+    height: 2.3rem;
+  }
+  .sectionFour__form__input i {
+    font-size: 0.75rem;
+  }
+  .sectionFour__btn {
+    padding: 0.8125rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .sectionFive__content h1 {
+    text-align: center;
+  }
+  .sectionFive__content p {
+    font-size: 0.875rem;
+    color: #555;
+  }
+  .sectionFive__cards {
+    gap: 1.7rem;
+  }
+  [class^="sectionFive__card-"] {
+    border: 0.25rem;
+  }
+  .card_content {
+    padding: 1.2rem 1rem;
+  }
+  .card_content-1 {
+    font-size: 0.9375rem;
+    margin-bottom: 0.5rem;
+  }
+  .card_content-2 {
+    font-size: 11px;
+    margin-bottom: 0.6rem;
+  }
+  .card_content-3 {
+    font-size: 12px;
+    margin-bottom: -0.6rem;
+  }
+  .card_content-4 {
+    padding: 0.625rem 1.5rem;
+    font-size: 13px;
+  }
+  .sectionSix {
+    gap: 1rem;
+  }
+  .sectionSix_title {
+    font-size: 1.5rem;
+  }
+  .sectionSix_text {
+    font-size: 0.625rem;
+    text-align: start;
+    margin-left: 0.5rem;
+    width: 100%;
+  }
+  .divi {
+    margin-left: -0.7rem;
+  }
+  .sectionSix_form {
+    width: 40%;
+  }
+  .sectionSix_form input {
+    padding: 0.875rem;
+  }
+  .sendBtn {
+    padding: 14px 1.2rem;
+    font-size: 12px;
+  }
+  .card-content {
+    padding: 1rem 0;
+  }
+  .card-content h4 {
+    font-size: 0.9375rem;
+  }
+  .card-content p {
+    font-size: 12px;
+  }
+  .card-content h2 {
+    font-size: 20px;
+  }
+  .cards_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cards_container_card-4 {
+    display: none;
+  }
+  .sectionSeven {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectionThree__menu {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (max-width: 692px) {
+  .cards_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cards_container_card-4 {
+    display: block;
+  }
+  .sectionThree__mill {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+}
+
+/* for mobile  */
+@media (max-width: 500px) {
+  html {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 92%;
+  }
+  nav {
+    background: var(--black-100);
+    padding: 1rem 0;
+  }
+  .topHeader_right-2 {
+    gap: 0.2rem;
+  }
+  .topHeader_right-3 {
+    gap: 1.4rem;
+  }
+  .book_btn {
+    display: block;
+  }
+
+  .cards_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sectionTwo_image {
+    width: 100%;
+  }
+  .sectionTwo_image img {
+    width: 100%;
+    height: auto;
+  }
+  .sectionThree__mill {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .sectionThree__menu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sectionFour__content p {
+    font-size: 0.6875rem;
+  }
+  .sectionFour__form {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sectionFour__btn {
+    padding: 0.5rem 20px;
+  }
+  .sectionFive__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sectionSix {
+    flex-direction: column;
+  }
+  .sectionSix_left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sectionSix_title {
+    border-right: none;
+  }
+  .sectionSix_text {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .sectionSix_form {
+    width: 100%;
+  }
+  .sectionSix_form input {
+    width: 80%;
+    padding: 9px;
+  }
+  .sendBtn {
+    width: 20%;
+    padding: 10px 0;
+  }
+  .sectionSeven {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .sectionSeven__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-content: center;
+    gap: 1rem;
+  }
+  .footer_text {
+    order: 1;
+  }
+
+}
